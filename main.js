@@ -33,7 +33,6 @@ btn.addEventListener("click" , (e) => {
     document.querySelector(".text-in").value = ""
 })
 
-
 ul.addEventListener("click" , (e) => {
     const t = document.querySelector(".hhh");
     
