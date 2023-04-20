@@ -1,0 +1,209 @@
+@font-face {
+    font-family: 'ord';
+    src: url(./Ordibehesht/Ordibehesht.TTF);
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #252525;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+header h1 {
+    font-family: 'ord';
+    animation: headText 18s infinite;
+    font-size: 60px;
+    margin-top: 10px;
+
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+}
+.text-box button {
+    margin-top: 8px;
+    animation: cia 18s infinite;
+    background-color: #14c8ff;
+    border: 0;
+    color: #252525;
+    font-family: 'ord' ;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.input-text {
+    display: flex;
+    
+    animation: headborder 18s infinite;
+    border-bottom: 2px solid;
+    
+}
+.input-text input {
+    direction: rtl;
+    width: 173px;
+    height: 30px;
+    background:none;
+    border: 0;
+    transition: 0.5s;
+    color: #ffffffa2;
+    text-align: right;
+    font-family: 'ord';
+
+}
+.input-text input:hover {
+    height: 30px;
+}
+.input-text input:focus {
+    width: 173px;
+    height: 30px;
+    outline: 0;
+    border: 0;
+    color: #ffffffa2;
+    text-align: right;
+    font-family: 'ord';
+}
+.input-text input::placeholder {
+    color:#fffdfd8c ;
+    font-size:13px;
+    text-align: right;
+    margin-right: 5px;
+    font-family: 'ord';
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    
+}
+.container ul li {
+    width: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid;
+    animation: headborder 18s infinite;
+    height: 40px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+.btn-tik {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn-tik button {
+    width: 30px;
+    animation: headText 18s infinite;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+    
+}
+.hhh {
+    font-family: 'ord';
+    margin-right: 5px;
+    animation: headText 18s infinite;
+
+}
+.hhh-off {
+    font-family: 'ord';
+    margin-right: 5px;
+    color: #d2f8ea7a;
+    text-decoration:line-through;
+}
+@keyframes headText {
+    0% {
+        color: #ffa114;
+        
+    }
+    
+    20% {
+        color: #a5ff14;
+    }
+    
+    40% {
+        color: #14ffa5;
+    }
+    60% {
+        color: #14c8ff;
+    }
+    80% {
+        color: #14ff62;
+    }
+    100% {
+        color: #ffa114;
+    }
+}
+@keyframes cia {
+    0% {
+        background-color:  #ffa114;
+        box-shadow: 0px 0px 10px #ffa11481;
+    }
+    
+    20% {
+        background-color: #a5ff14;
+        box-shadow: 0px 0px 10px #fbff1481;
+    }
+    
+    40% {
+        background-color: #14ffa5;
+        box-shadow: 0px 0px 10px #14ffa57c;
+    }
+    60% {
+        background-color: #14c8ff;
+        box-shadow: 0px 0px 10px #14f7ff7c;
+    }
+    80% {
+        background-color: #14ff62;
+        box-shadow: 0px 0px 10px #adff1481;
+    }
+    100% {
+        background-color: #ffa114;
+        box-shadow: 0px 0px 10px #ffa11481;
+    }
+}
+@keyframes headborder {
+    0% {
+        
+        border-bottom-color: #ffa114;
+    }
+    
+    20% {
+        
+        border-bottom-color: #a5ff14;
+    }
+    
+    40% {
+        
+        border-bottom-color: #14ffa5;
+    }
+    60% {
+        
+        border-bottom-color: #14c8ff;
+    }
+    80% {
+        
+        border-bottom-color: #14ff62;
+    }
+    100% {
+        
+        border-bottom-color: #ffa114;
+    }
+}
