@@ -34,8 +34,6 @@ btn.addEventListener("click" , (e) => {
 })
 
 
-
-
 ul.addEventListener("click" , (e) => {
     const t = document.querySelector(".hhh");
     
